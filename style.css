@@ -68,17 +68,22 @@ button {
 .container-2 {
     padding: 100px;
     display: flex;
-    
+    margin: auto;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;*/
+    align-items: space-around;
+    justify-content: space-evenly;
+}
+
+.align {
+    display: flex;
 }
 
 .images {
     width: 20ch;
-    /*display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column;
+    display: flex;
+    align-items: space-around;
+   /* flex-wrap: wrap;*/
+    flex-direction: column;
     /*padding: 2%*/
 }
 
